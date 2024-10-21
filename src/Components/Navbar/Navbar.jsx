@@ -17,7 +17,7 @@ export default function Navbar() {
       {/* Search and Pages Section */}
       <div className="flex flex-col sm:flex-row w-full sm:w-7/12 justify-between items-center mb-4 sm:mb-0">
         {/* Search Bar */}
-        <div className="w-full sm:w-8/12">
+        <div className="w-full sm:w-8/12 ">
           <NavSearch />
         </div>
         {/* Pages */}
