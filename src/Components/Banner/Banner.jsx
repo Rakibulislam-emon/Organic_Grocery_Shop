@@ -6,7 +6,7 @@ import { LiaTruckSolid } from "react-icons/lia";
 export default function Banner() {
     return (
         <section
-            className="lg:h-[710px] h-[1210px] border overflow-hidden"
+            className="lg:h-[710px] h-[1210px]  overflow-hidden"
             style={{
                 backgroundImage: `url(${BannerImg})`,
                 backgroundSize: 'cover',
@@ -56,7 +56,7 @@ export default function Banner() {
                 </div>
 
                 {/* Info Section */}
-                <div className='lg:mt-44 mt-40 mb-60 lg:mb-0  md:mt-20 text-center lg:text-4xl flex flex-col lg:flex-row lg:gap-x-10 gap-y-6 justify-center w-full lg:justify-start items-center text-4xl font-bold   '>
+                <div className='lg:mt-44 mt-40 mb-60  lg:mb-0  md:mb-40 text-center lg:text-4xl flex flex-col lg:flex-row lg:gap-x-10 gap-y-6 justify-center w-full lg:justify-start items-center text-4xl font-bold   '>
                     <div className='flex'>
                         <span className='font-bold'>14k+</span>
                         <p>Product <br /> Varieties</p>
