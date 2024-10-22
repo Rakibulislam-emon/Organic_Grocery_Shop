@@ -72,7 +72,7 @@ export default function Banner() {
                 </div>
 
                 {/* Highlights Section */}
-                <div className='absolute bottom-0 w-full '>
+                <div className='absolute bottom-0 w-full md:flex justify-center items-center'>
                     <div className='flex flex-col lg:flex-row justify-around h-auto lg:h-40 lg:mr-[320px]'>{/* Add margin-right for lg screens */}
                         {/* Highlight 1 */}
                         <div className='flex gap-x-8 items-center p-4 bg-[#6bb252] text-white  flex-1'>
