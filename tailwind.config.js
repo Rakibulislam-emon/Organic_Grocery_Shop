@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      flexGrow: {
+        '3': 3,
+      },
       screens: {
         'max-sm': { 'max': '400px' }, // Defines max-sm for screens below 640px
       },

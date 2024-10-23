@@ -1,4 +1,6 @@
+import AdBanners from "../../Components/AdBanners/AdBanners";
 import Banner from "../../Components/Banner/Banner";
+import BestSellingProducts from "../../Components/BestSellingProducts/BestSellingProducts";
 import Category from "../../Components/Category/Category";
 
 export default function Home() {
@@ -6,6 +8,8 @@ export default function Home() {
     <>
       <Banner/>
       <Category/>
+      <BestSellingProducts/>
+      <AdBanners/>
     </>
   )
 }
