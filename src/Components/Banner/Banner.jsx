@@ -58,8 +58,8 @@ export default function Banner() {
                 {/* Info Section */}
                 <div className='lg:mt-44 mt-40 mb-60  lg:mb-0  md:mb-40 text-center lg:text-4xl flex flex-col lg:flex-row lg:gap-x-10 gap-y-6 justify-center w-full lg:justify-start items-center text-4xl font-bold   '>
                     <div className='flex'>
-                        <span className='font-bold'>14k+</span>
-                        <p>Product <br /> Varieties</p>
+                        <span className='font-bold mr-4'>14k+</span>
+                        <p>Product <br />Varieties</p>
                     </div>
                     <div className='flex'>
                         <span className='font-bold'>50k+</span>
@@ -101,7 +101,7 @@ export default function Banner() {
                     </div>
                 </div>
 
-                
+
             </section>
         </section>
     );
