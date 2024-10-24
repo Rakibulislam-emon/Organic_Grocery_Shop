@@ -84,7 +84,7 @@ export default function FeaturedProducts() {
         }
     ]
   return (
-    <div className="">
+    <div className="px-4">
         <ProductCardCarasoul products={products}heading={'Featured products'}/>
     </div>
   )

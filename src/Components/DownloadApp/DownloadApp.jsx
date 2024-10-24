@@ -4,7 +4,7 @@ import buy from '../../assets/downloadApp/asset 37.png';
 
 export default function DownloadApp() {
   return (
-    <main className="bg-[#ffc107] max-w-screen-2xl mx-auto  max-sm:h-[485px] h-[460px] lg:h-[456px] rounded-3xl my-20 flex flex-col lg:flex-row justify-evenly items-center  p-8">
+    <main className="bg-[#ffc107]  max-w-screen-2xl mx-auto  max-sm:h-[485px] h-[460px] lg:h-[456px] rounded-3xl my-20 flex flex-col lg:flex-row justify-evenly items-center  p-8">
         <div className="flex flex-col text-center lg:text-left ">
             {/* Texts */}
             <h1 className="text-3xl font-bold mb-4">Download Organic App</h1>

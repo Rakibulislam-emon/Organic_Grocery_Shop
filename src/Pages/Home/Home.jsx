@@ -7,7 +7,9 @@ import DownloadApp from "../../Components/DownloadApp/DownloadApp";
 import FeaturedProducts from "../../Components/FeaturedProducts/FeaturedProducts";
 import JustArrived from "../../Components/JustArrived/JustArrived";
 import MostPopularProducts from "../../Components/MostPopularProducts/MostPopularProducts";
+import PeoplesSearches from "../../Components/PeoplesSearches/PeoplesSearches";
 import RecentBlog from "../../Components/RecentBlog/RecentBlog";
+import Services from "../../Components/Services/Services";
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
       <JustArrived/>
       <RecentBlog/>
       <DownloadApp/>
+      <PeoplesSearches/>
+      <Services/>
     </>
   )
 }

@@ -84,7 +84,7 @@ export default function MostPopularProducts() {
         }
     ]
   return (
-    <div>
+    <div className="px-4">
         <ProductCardCarasoul products={products} heading={'Most popular products'}/>
     </div>
   )

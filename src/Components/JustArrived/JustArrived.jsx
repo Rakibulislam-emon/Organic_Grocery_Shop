@@ -86,7 +86,7 @@ export default function JustArrived() {
     ]
 
     return (
-       <main className="">
+       <main className="px-4">
         <ProductCardCarasoul products={products} heading={' Just arrived'}/>
        </main>
     );

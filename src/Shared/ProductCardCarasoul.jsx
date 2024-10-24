@@ -23,8 +23,8 @@ export default function ProductCardCarasoul({products,heading}) {
 
     return (
         <section className="max-w-screen-2xl mx-auto   ">
-            <div className="flex justify-between lg:p-8 ">
-                <h1 className="text-4xl font-bold">{heading}</h1>
+            <div className="lg:flex  lg:justify-between lg:p-8 ">
+                <h1 className="text-4xl font-bold mb-4">{heading}</h1>
                 <div className="flex gap-x-1 items-center">
                     <button className="border px-4 py-2 text-white bg-[#6bb252] hover:bg-[#ffc107] rounded-lg font-semibold">
                         View All

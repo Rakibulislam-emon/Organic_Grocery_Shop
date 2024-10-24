@@ -26,7 +26,7 @@ export default function RecentBlog() {
     ];
 
     return (
-        <div className="max-w-screen-2xl mx-auto">
+        <div className="max-w-screen-2xl px-4 mx-auto">
             {/* Title */}
             <div className="flex justify-between lg:p-8">
                 <h1 className="text-4xl font-bold">Our Recent Blog</h1>
