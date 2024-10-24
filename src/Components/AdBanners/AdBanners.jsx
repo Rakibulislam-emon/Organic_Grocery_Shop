@@ -27,7 +27,7 @@ export default function AdBanners() {
     <main className=" lg:h-[470px] mb-20 lg:max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-y-10 gap-x-10">
       <div className="relative w-full md:w-1/2">
         <img src={adData[0].image} alt={adData[0].title} className="w-full h-full "/>
-        <div className="absolute top-8 md:top-8 lg:left-10 lg:top-40 text-white rounded-md shadow-md p-4 md:p-8">
+        <div className="absolute top-8 md:top-8 lg:left-4 lg:top-28 text-white rounded-md shadow-md p-4 md:p-8">
           <h2 className="text-2xl md:text-4xl font-bold">{adData[0].title}</h2>
           <p className="text-lg my-4 md:my-6">{adData[0].discount}</p>
           <button className="border-b hover:border-t transition-all duration-100 w-full text-white font-medium px-4 py-2 rounded">
