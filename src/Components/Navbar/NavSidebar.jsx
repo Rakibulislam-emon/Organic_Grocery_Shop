@@ -1,9 +1,12 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/display-name */
+import { forwardRef } from "react";
 import { RxCross2 } from "react-icons/rx";
 import { sidebarLinks } from './SidebarLinks'; // Import the configured sidebar links
 
-export default function NavSidebar({ closeSidebar }) {
+const NavSidebar = forwardRef(({ closeSidebar }, ref) => {
   return (
-    <nav className="bg-[#f7f7f8] z-[1000] h-screen fixed top-0 left-0 min-w-[325px] lg:min-w-[400px] py-6 px-4 font-[sans-serif]">
+    <nav ref={ref} className="bg-[#f7f7f8] z-[1000] h-screen fixed top-0 left-0 min-w-[325px] lg:min-w-[400px] py-6 px-4 font-[sans-serif]">
       <div className="relative">
         <h1 className="text-3xl">Menu</h1>
         <div
@@ -20,11 +23,11 @@ export default function NavSidebar({ closeSidebar }) {
             <li key={index}>
               <a
                 href={link.path}
-                className="text-black hover:text-blue-600 text-[15px] flex items-center hover:bg-white rounded px-4 py-3 transition-all  border-b-2 border-dotted border-gray-400"
+                className="text-black hover:text-blue-600 text-[15px] flex items-center hover:bg-white rounded px-4 py-3 transition-all border-b-2 border-dotted border-gray-400"
               >
                 {/* Render the icon as a React component */}
                 {link.icon && <link.icon className="mr-4 w-5 h-5" />}
-                <span >{link.label}</span>
+                <span>{link.label}</span>
               </a>
             </li>
           ))}
@@ -32,4 +35,6 @@ export default function NavSidebar({ closeSidebar }) {
       </div>
     </nav>
   );
-}
+});
+
+export default NavSidebar;

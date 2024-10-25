@@ -20,7 +20,7 @@ export default function Banner() {
                 <div className="absolute left-0 right-0 top-60 transform -translate-y-1/2 text-center lg:top-60 lg:text-left">
                     {/* Text for Small Screens */}
                     <div className="block sm:hidden">
-                        <h1 className="text-3xl sm:text-4xl md:text-5xl tracking-tight font-extrabold text-gray-800">
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl tracking-tight font-extrabold text-gray-800 ">
                             <span className='text-[#6bb252]'>Organic</span> <span className='text-[#212529] font-semibold'>Foods at your</span> <span className='text-[#212529]'>Doorsteps</span>
                         </h1>
                         <p className="mt-3 text-base sm:text-lg text-gray-500">Dignissim massa diam elementum.</p>
@@ -73,33 +73,33 @@ export default function Banner() {
 
                 {/* Highlights Section */}
                 <div className='absolute bottom-0 w-full md:flex justify-center items-center'>
-    <div className='flex flex-col lg:flex-row justify-around h-auto lg:h-40 lg:mr-[320px]'>
-        {/* Highlight 1 */}
-        <div className='flex gap-x-8 items-center p-4 bg-[#6bb252] text-white flex-1'>
-            <img src={rotate} alt='rotate' className='h-20 w-20' />
-            <p className='lg:text-3xl text-xl'>
-                Fresh from farm <br />
-                Experience the taste of organic produce straight from local farms.
-            </p>
-        </div>
-        {/* Highlight 2 */}
-        <div className='flex gap-x-8 items-center p-4 bg-[#364127] text-white flex-1'>
-            <LuLeaf size={70} className='text-white' />
-            <p className='lg:text-3xl text-xl'>
-                Nutrient-rich greens <br />
-                Discover the benefits of farm-fresh vegetables for your health.
-            </p>
-        </div>
-        {/* Highlight 3 */}
-        <div className='flex gap-x-8 items-center p-4 bg-[#f95f09] text-white flex-1'>
-            <LiaTruckSolid size={70} className='text-white' />
-            <p className='lg:text-3xl text-xl'>
-                Delivered to your door <br />
-                Enjoy hassle-free delivery of fresh produce right to your doorstep.
-            </p>
-        </div>
-    </div>
-</div>
+                    <div className='flex flex-col lg:flex-row justify-around h-auto lg:h-40 lg:mr-[320px]'>
+                        {/* Highlight 1 */}
+                        <div className='flex gap-x-8 items-center p-4 bg-[#6bb252] text-white flex-1'>
+                            <img src={rotate} alt='rotate' className='h-20 w-20' />
+                            <p className='lg:text-3xl text-xl'>
+                                Fresh from farm <br />
+                                Experience the taste of organic produce straight from local farms.
+                            </p>
+                        </div>
+                        {/* Highlight 2 */}
+                        <div className='flex gap-x-8 items-center p-4 bg-[#364127] text-white flex-1'>
+                            <LuLeaf size={70} className='text-white' />
+                            <p className='lg:text-3xl text-xl'>
+                                Nutrient-rich greens <br />
+                                Discover the benefits of farm-fresh vegetables for your health.
+                            </p>
+                        </div>
+                        {/* Highlight 3 */}
+                        <div className='flex gap-x-8 items-center p-4 bg-[#f95f09] text-white flex-1'>
+                            <LiaTruckSolid size={70} className='text-white' />
+                            <p className='lg:text-3xl text-xl'>
+                                Delivered to your door <br />
+                                Enjoy hassle-free delivery of fresh produce right to your doorstep.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
 
             </section>
