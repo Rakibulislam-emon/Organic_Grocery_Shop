@@ -11,8 +11,8 @@ export default function DownloadApp() {
             <p className="text-lg mb-6">Online Orders made easy, fast and reliable</p>
             {/* Images for App Store and Google Play */}
             <div className="flex justify-center lg:justify-start space-x-4 mb-4">
-                <img src={appStore} alt="Download on the App Store" className="lg:h-16" />
-                <img src={googlePlay} alt="Get it on Google Play" className="h-16" />
+                <img src={appStore} alt="Download on the App Store" className="lg:h-16 h-12" />
+                <img src={googlePlay} alt="Get it on Google Play" className="lg:h-16 h-12" />
             </div>
         </div>
         <div className="flex justify-center lg:justify-end">

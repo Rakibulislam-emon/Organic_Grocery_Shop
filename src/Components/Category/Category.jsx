@@ -44,7 +44,7 @@ export default function Category() {
     const nextRef = useRef(null);
 
     return (
-        <section className="max-w-screen-2xl mx-auto lg:h-[300px] mt-10 mb-28 px-4">
+        <section className="max-w-screen-2xl mx-auto lg:h-[300px] my-10 lg:mb-28 px-4">
             <div className="flex justify-between lg:p-8 ">
                 <h1 className="text-4xl font-bold">Category</h1>
                 <div className="flex gap-x-1 items-center">

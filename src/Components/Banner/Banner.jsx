@@ -73,33 +73,33 @@ export default function Banner() {
 
                 {/* Highlights Section */}
                 <div className='absolute bottom-0 w-full md:flex justify-center items-center'>
-                    <div className='flex flex-col lg:flex-row justify-around h-auto lg:h-40 lg:mr-[320px]'>{/* Add margin-right for lg screens */}
-                        {/* Highlight 1 */}
-                        <div className='flex gap-x-8 items-center p-4 bg-[#6bb252] text-white  flex-1'>
-                            <img src={rotate} alt='rotate' className='h-20 w-20' />
-                            <p className='lg:text-3xl text-xl'>
-                                Fresh from farm <br />
-                                Lorem ipsum dolor sit amet, consectetur adipi <br /> elit.
-                            </p>
-                        </div>
-                        {/* Highlight 2 */}
-                        <div className='flex gap-x-8 items-center p-4 bg-[#364127] text-white  flex-1'>
-                            <LuLeaf size={70} className='text-white' />
-                            <p className='lg:text-3xl text-xl'>
-                                Fresh from farm <br />
-                                Lorem ipsum dolor sit amet, consectetur adipi <br /> elit.
-                            </p>
-                        </div>
-                        {/* Highlight 3 */}
-                        <div className='flex gap-x-8 items-center p-4 bg-[#f95f09] text-white flex-1'>
-                            <LiaTruckSolid size={70} className='text-white' />
-                            <p className='lg:text-3xl text-xl'>
-                                Fresh from farm <br />
-                                Lorem ipsum dolor sit amet, consectetur adipi <br /> elit.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+    <div className='flex flex-col lg:flex-row justify-around h-auto lg:h-40 lg:mr-[320px]'>
+        {/* Highlight 1 */}
+        <div className='flex gap-x-8 items-center p-4 bg-[#6bb252] text-white flex-1'>
+            <img src={rotate} alt='rotate' className='h-20 w-20' />
+            <p className='lg:text-3xl text-xl'>
+                Fresh from farm <br />
+                Experience the taste of organic produce straight from local farms.
+            </p>
+        </div>
+        {/* Highlight 2 */}
+        <div className='flex gap-x-8 items-center p-4 bg-[#364127] text-white flex-1'>
+            <LuLeaf size={70} className='text-white' />
+            <p className='lg:text-3xl text-xl'>
+                Nutrient-rich greens <br />
+                Discover the benefits of farm-fresh vegetables for your health.
+            </p>
+        </div>
+        {/* Highlight 3 */}
+        <div className='flex gap-x-8 items-center p-4 bg-[#f95f09] text-white flex-1'>
+            <LiaTruckSolid size={70} className='text-white' />
+            <p className='lg:text-3xl text-xl'>
+                Delivered to your door <br />
+                Enjoy hassle-free delivery of fresh produce right to your doorstep.
+            </p>
+        </div>
+    </div>
+</div>
 
 
             </section>

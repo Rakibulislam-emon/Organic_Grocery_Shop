@@ -88,7 +88,7 @@ export default function BestSellingProducts() {
     return (
         <main className="max-w-screen-2xl px-4 mx-auto  mb-10">
           <div className="lg:flex  lg:justify-between mb-16">
-                <h1 className="text-4xl font-bold mb-4">
+                <h1 className="text-4xl max-sm:text-3xl font-bold mb-4">
                     Best Selling Products
                 </h1>
                 <button className="border px-4 py-2 text-white bg-[#6bb252] hover:bg-[#ffc107] rounded-lg font-semibold">
