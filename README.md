@@ -49,7 +49,7 @@ Enable online payments via a payment gateway like Stripe.
 
 1.Clone the Repository
 
-```https://github.com/Rakibulislam-emon/Organic_Grocery_Shop_Client```
+```https://github.com/Rakibulislam-emon/Organic_Grocery_Shop_Client``
 
 2.Install Dependencies
 
